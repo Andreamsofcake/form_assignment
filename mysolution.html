@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Form Assignment</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/form_assignment.css" />  
+  </head>
+  <body>
+    <div class="container">
+      <header> 
+       <h1>Feedback</h1>
+      </header>
+         <p class="prompt_text">Thank you for using our product. Please give us feedback.</p> 
+        <form action="http://form-echo.herokuapp.com/form-echo" ,="" method="post">
+            <fieldset>
+          <ol>
+              <li>
+                <label for="name"> Name: </label><br>
+                <input type="text" ,="" name="name">
+              </li>
+              <li>
+                <label for="mail"> Email: </label><br>
+                <input type="text" ,="" name="mail">
+              </li>
+              <li>
+                <label for="phone"> Phone: </label><br>
+                <input type="text", ="" name="phone">
+              </li>
+            </ol>
+          </fieldset>
+          <p class="prompt_text">What sort of feedback do you want to give us?</p>
+              <input type="radio" name="reason" value="problem">I found a problem<br>
+              <input type="radio" name="reason" value="negative">I wanted to give negative feedback.<br>
+              <input type="radio" name="reason" value="positive">I wanted to give positive feedback.
+
+          <p class="prompt_text">How would you like us to respond?</p>
+              <input type="checkbox" name="response" value="call">Call Me<br>
+              <input type="checkbox" name="response" value="email">Send me an email
+          <p class="prompt_text">What is your message?</p>
+              <label for="body"> Message: </label><br>
+                <textarea name="body"></textarea>
+           <p class="prompt_text">What is your zip code?</p>
+                 <label for="zip"> Zip: </label><br>
+                  <input type="text" name="zip">
+              <input class="button" type="submit" ,="" value="Send">
+        </form> 
+        <p class="redirect">
+          <a href="http://www.google.com">Never Mind </a>
+        </p>
+      <footer>
+       Copyright &copy; 2013 <i>Andrea M</i>
+      </footer>
+    </div> 
+  </body>
+</html>

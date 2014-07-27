@@ -21,8 +21,42 @@ body {
   background-color: darkgreen;
 }
 
-/* The container sits in the middle of the page and is a fixed width Reference: http://www.w3schools.com/css/css_boxmodel.asp
-*/
+h1 {font-size: 36px;}
+
+      .prompt_text {
+        font-size: 24px;
+        padding-left: 10px;
+        color: #000;
+      }
+
+      .form_field_table {
+        margin-left: 30px;
+        border: none;
+      }
+
+      .form_field_table td {
+        color: #00f;
+      }
+      
+      form {
+        color: #00f;
+      }
+.button {
+  float: right;
+   background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
 
 .container {
   width: 900px;
@@ -34,7 +68,7 @@ body {
 
 /* The next set of styles pretty much just "open up" the page and create white space */
 
-.header {
+header {
   margin: 20px;
 }
  	
@@ -81,11 +115,18 @@ body {
 }
 
 /* finally, the footer stretches across the whole page width in an open, centered sort of way. */
-.footer {
+footer {
   font-size: .80em;
   min-height: 40px;
   text-align: center;
   margin: 20px;
 
+}
+#button {
+
+}
+
+.redirect {
+  text-align:center;
 }
 
